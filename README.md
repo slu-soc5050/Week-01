@@ -6,7 +6,7 @@ This repository contains files for:
     - stata-snippets.cson
     - week-01-atomCheatsheet.pdf
   - Commands
-    - week-01-quickRef.pdf
+    - week-01-stataQuickref.pdf
   - MarkDoc
     - week-01-markdocQuickRef.pdf
   - Markdown
