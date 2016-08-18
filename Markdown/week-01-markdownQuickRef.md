@@ -100,6 +100,6 @@ Once the document is uploaded to GitHub, the username will render as a hyperlink
 If you write your Markdown documents in Atom, you can use the Markdown Preview package to generate an interactive preview of your document. As you type, the preview will update. To open this preview in a tab, go to `Packages > Markdown Preview > Toggle Preview` in Atom.
 
 ## Document Details
-Document produced by [Christopher Prener, Ph.D.](https://chrisprener.net) for the Saint Louis University course SOC 5050: QUANTITATIVE ANALYSIS - APPLIED INFERENTIAL STATISTICS. A `pdf` version is also available. See the [course website](http://slu-soc5050.github.io) and the repository README.md file for additional details.
+Document produced by [Christopher Prener, Ph.D.](https://chrisprener.net) for the Saint Louis University course SOC 5050: QUANTITATIVE ANALYSIS - APPLIED INFERENTIAL STATISTICS. A `pdf` version is also available. See the [course wiki](https://github.com/slu-soc5050/Core-Documents/wiki) and the repository [README.md](https://github.com/slu-soc5050/Week-01) file for additional details.
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
