@@ -1,0 +1,79 @@
+{smcl}
+{com}{sf}{ul off}{txt}
+{com}. 
+. /***
+> # MarkDoc Example
+>   - SOC 5050: Quantitative Analysis
+>   - Christopher Prener, PhD
+>   - 22 Aug 2016
+> 
+> ### Supressing output
+> 
+> You can supress output by using `//OFF` and `//ON` commands.
+> ***/
+. 
+. //OFF
+. sysuse auto, clear
+{txt}(1978 Automobile Data)
+
+{com}. //ON
+. 
+. /***
+> ### Writing basic text
+> 
+> You can write basic text by wrapping it in the special MarkDoc comment syntax: `/***` and `***/`.
+> 
+> The `auto.dta` dataset contains the following variables:
+> ***/
+. 
+. describe
+
+{txt}Contains data from {res}/Applications/Stata/ado/base/a/auto.dta
+{txt}  obs:{res}            74                          1978 Automobile Data
+{txt} vars:{res}            12                          13 Apr 2014 17:45
+{txt} size:{res}         3,182                          (_dta has notes)
+{txt}{hline}
+              storage   display    value
+variable name   type    format     label      variable label
+{hline}
+{p 0 48}{res}{bind:make           }{txt}{bind: str18   }{bind:{txt}%-18s     }{space 1}{bind:         }{bind:  }{res}{res}Make and Model{p_end}
+{p 0 48}{bind:price          }{txt}{bind: int     }{bind:{txt}%8.0gc    }{space 1}{bind:         }{bind:  }{res}{res}Price{p_end}
+{p 0 48}{bind:mpg            }{txt}{bind: int     }{bind:{txt}%8.0g     }{space 1}{bind:         }{bind:  }{res}{res}Mileage (mpg){p_end}
+{p 0 48}{bind:rep78          }{txt}{bind: int     }{bind:{txt}%8.0g     }{space 1}{bind:         }{bind:  }{res}{res}Repair Record 1978{p_end}
+{p 0 48}{bind:headroom       }{txt}{bind: float   }{bind:{txt}%6.1f     }{space 1}{bind:         }{bind:  }{res}{res}Headroom (in.){p_end}
+{p 0 48}{bind:trunk          }{txt}{bind: int     }{bind:{txt}%8.0g     }{space 1}{bind:         }{bind:  }{res}{res}Trunk space (cu. ft.){p_end}
+{p 0 48}{bind:weight         }{txt}{bind: int     }{bind:{txt}%8.0gc    }{space 1}{bind:         }{bind:  }{res}{res}Weight (lbs.){p_end}
+{p 0 48}{bind:length         }{txt}{bind: int     }{bind:{txt}%8.0g     }{space 1}{bind:         }{bind:  }{res}{res}Length (in.){p_end}
+{p 0 48}{bind:turn           }{txt}{bind: int     }{bind:{txt}%8.0g     }{space 1}{bind:         }{bind:  }{res}{res}Turn Circle (ft.) {p_end}
+{p 0 48}{bind:displacement   }{txt}{bind: int     }{bind:{txt}%8.0g     }{space 1}{bind:         }{bind:  }{res}{res}Displacement (cu. in.){p_end}
+{p 0 48}{bind:gear_ratio     }{txt}{bind: float   }{bind:{txt}%6.2f     }{space 1}{bind:         }{bind:  }{res}{res}Gear Ratio{p_end}
+{p 0 48}{bind:foreign        }{txt}{bind: byte    }{bind:{txt}%8.0g     }{space 1}{bind:origin   }{bind:  }{res}{res}Car type{p_end}
+{txt}{hline}
+Sorted by: {res}foreign
+{txt}
+{com}. 
+. /***
+> ### Writing dynamic text in MarkDoc
+> 
+> Use the `txt` command to write dynamic text in **MarkDoc** as shown below:
+> ***/
+. 
+. summarize price
+
+{txt}    Variable {c |}        Obs        Mean    Std. Dev.       Min        Max
+{hline 13}{c +}{hline 57}
+{space 7}price {c |}{res}         74    6165.257    2949.496       3291      15906
+{txt}
+{com}. 
+. txt "The mean of Price variable is " r(mean) " and SD is " %9.3f r(sd)    ///
+>     ". Note that you only need to put the string in double quotes, if you " ///
+>     "wish to display **Scalars** within the text. Instead, if you include " ///
+>     "local or global **Macros**, you can just type any text without "       ///
+>     "bothering with the double quotations."
+
+
+{txt}> The mean of Price variable is 6165.26 and SD is 2949.496. Note that you only need to put the string in double quotes, if you wish to display **Scalars** within the text. Instead, if you include local or global **Macros**, you can just type any text without bothering with the double quotations.
+{com}. 
+. quietly log close markdoc
+{smcl}
+{com}{sf}{ul off}
