@@ -2,6 +2,9 @@
 #### Name:
 #### SOC 5050 - Quantiative Analysis - Spring 2016
 
+### Directions
+This is a Markdown file. We will talk more about Markdown next week. In the meantime, I've created a template for you to work with on your first lab assignment. On the line below question 1, you can delete the placeholder text and start typing your answer. There is no need to worry about Markdown formatting at this stage - just type some text in under each question!
+
 ### Questions
 **1. Are there any string variables in the dataset `nlsw88.dta`. Why or why not?**
 <start answer here>
