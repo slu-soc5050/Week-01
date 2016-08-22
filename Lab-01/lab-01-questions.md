@@ -3,7 +3,7 @@
 #### SOC 5050 - Quantiative Analysis - Spring 2016
 
 ### Directions
-This is a Markdown file. We will talk more about Markdown next week. In the meantime, I've created a template for you to work with on your first lab assignment. On the line below question 1, you can delete the placeholder text and start typing your answer. There is no need to worry about Markdown formatting at this stage - just type some text in under each question!
+This is a Markdown file. We will talk more about Markdown next week. In the meantime, I've created a template for you to work with on your first lab assignment. On the line below question 1, you can delete the placeholder text and start typing your answer. There is no need to worry about Markdown formatting at this stage - just type some text in under each question! As you type, make sure you open the Markdown Preview in Atom. Observe how the document changes as you alter it.
 
 ### Questions
 **1. Are there any string variables in the dataset `nlsw88.dta`. Why or why not?**
