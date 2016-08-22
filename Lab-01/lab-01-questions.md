@@ -2,6 +2,7 @@
 #### Name:
 #### SOC 5050 - Quantiative Analysis - Spring 2016
 
+### Questions
 **1. Are there any string variables in the dataset `nlsw88.dta`. Why or why not?**
 <start answer here>
 
