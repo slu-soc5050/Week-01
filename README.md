@@ -14,6 +14,13 @@ This repository contains files for:
     - lab-01-modified.do
     - lab-01-questions.md
     - lab-01m.pdf
+  - Readings
+    - Acock 2016 Chapter 1.pdf
+    - Acock 2016 Chapter 4.pdf
+    - Freedman et al 2007 Chapter 1.pdf
+    - Freedman et al 2007 Chapter 2.pdf
+    - Long 2009 Chapter 1.pdf
+    - Long 2009 Chapter 8.pdf
   - Slides
     - week-01-slides.pdf
   - LICENSE_CODE.md
