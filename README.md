@@ -7,6 +7,13 @@ This repository contains files for:
     - week-01-atomCheatsheet.pdf
   - Commands
     - week-01-stataQuickref.pdf
+  - Lab-01
+    - lab-01-questions.md
+    - lab-01.pdf
+  - Lab-01-Modified
+    - lab-01-modified.do
+    - lab-01-questions.md
+    - lab-01m.pdf
   - Slides
     - week-01-slides.pdf
   - LICENSE_CODE.md
