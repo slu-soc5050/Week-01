@@ -1,6 +1,10 @@
-Week-01 <img src="https://raw.githubusercontent.com/slu-soc5050/Core-Documents/sources/soc5050LogoSm_v2.png" align="right" />
+lecture-01 <img src="https://raw.githubusercontent.com/slu-soc5050/Core-Documents/sources/soc5050LogoSm_v2.png" align="right" />
 ===========================================================
-![](https://img.shields.io/badge/semester-Fall%2C%202017-blue.svg) ![](https://img.shields.io/badge/release-updated-brightgreen.svg) ![](https://img.shields.io/github/last-commit/slu-soc5050/Week-01.svg) ![](https://img.shields.io/github/repo-size/slu-soc5050/Week-01.svg)
+[![](https://img.shields.io/badge/semester-fall%202017-blue.svg)](https://github.com/slu-soc5050/lecture-01)
+[![](https://img.shields.io/badge/release-updated-brightgreen.svg)](https://github.com/slu-soc5050/lecture-01)
+[![](https://img.shields.io/github/release/slu-soc5050/lecture-01.svg?label=version)](https://github.com/slu-soc5050/lecture-01/releases)
+[![](https://img.shields.io/github/last-commit/slu-soc5050/lecture-01.svg)](https://github.com/slu-soc5050/lecture-01/commits/master)
+[![](https://img.shields.io/github/repo-size/slu-soc5050/lecture-01.svg)](https://github.com/slu-soc5050/lecture-01)
 
 ### Repository Contents
 This repository contains files for:
